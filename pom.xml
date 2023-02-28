@@ -2,34 +2,11 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.mahendra</groupId>
 	<artifactId>emp-demo1</artifactId>
-	<version>1.0.${build}</version>
+	<version>1.0</version>
 	<packaging>war</packaging>
 	<name>emp-demo1</name>
 	<description>Employee Demo with Bootstrap </description>
-	<repositories>
-		<repository>
-			<id>M2Packages</id>
-			<url>https://pkgs.dev.azure.com/mahendraunlimited/_packaging/M2Packages/maven/v1</url>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-		</repository>
-	</repositories>
-	<distributionManagement>
-		<repository>
-			<id>M2Packages</id>
-			<url>https://pkgs.dev.azure.com/mahendraunlimited/_packaging/M2Packages/maven/v1</url>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-		</repository>
-	</distributionManagement>
+	
 	<dependencies>
 		<dependency>
 			<groupId>javax.servlet</groupId>
@@ -68,6 +45,6 @@
 	<properties>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
-		<build>1</build>
+	
 	</properties>
 </project>
